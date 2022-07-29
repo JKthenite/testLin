@@ -206,13 +206,13 @@ console.log(bob.precip);
 - [ ] Storm()
 - [ ] undefined
 - [ ] 'rain'
-- [ ] 'snow'
+- [x] 'snow'
 
 [Reference prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 #### Q12. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
 
-- [ ] `/[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/`
+- [x] `/[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/`
 - [ ] `/\d\d:\d\d:\d\d/`
 - [ ] `/[0-9]+:[0-9]+:[0-9]+/`
 - [ ] `/ : : /`
@@ -237,7 +237,7 @@ new logThis();
 
 - [ ] `undefined`
 - [ ] `window`
-- [ ] `{desc: "logger"}`
+- [x] `{desc: "logger"}`
 - [ ] `function`
 
 [Reference javascript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
@@ -251,7 +251,7 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 - [ ] roadTypes.2
 - [ ] roadTypes\[3\]
 - [ ] roadTypes.3
-- [ ] roadTypes\[2\]
+- [x] roadTypes\[2\]
 
 [Reference accessing javascript arrays](https://www.w3schools.com/js/js_arrays.asp)
 
@@ -263,15 +263,16 @@ console.log(typeof 42);
 
 - [ ] `'float'`
 - [ ] `'value'`
-- [ ] `'number'`
+- [x] `'number'`
 - [ ] `'integer'`
 
 [Reference javascript data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 #### Q16. Which property references the DOM object that dispatched an event?
+#### Im not sure
 
 - [ ] `self`
-- [ ] `object`
+- [x] `object`
 - [ ] `target`
 - [ ] `source`
 
@@ -289,14 +290,14 @@ function addNumbers(x, y) {
 - [ ] `exception('One or both parameters are not numbers')`
 - [ ] `catch('One or both parameters are not numbers')`
 - [ ] `error('One or both parameters are not numbers')`
-- [ ] `throw('One or both parameters are not numbers')`
+- [x] `throw('One or both parameters are not numbers')`
 
 [Reference javascript throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 
 #### Q18. Which method converts JSON data to a JavaScript object?
 
 - [ ] `JSON.fromString();`
-- [ ] `JSON.parse()`
+- [x] `JSON.parse()`
 - [ ] `JSON.toObject()`
 - [ ] `JSON.stringify()`
 
@@ -305,7 +306,7 @@ function addNumbers(x, y) {
 #### Q19. When would you use a conditional statement?
 
 - [ ] When you want to reuse a set of statements multiple times.
-- [ ] When you want your code to choose between multiple options.
+- [x] When you want your code to choose between multiple options.
 - [ ] When you want to group data together.
 - [ ] When you want to loop through a group of statement.
 
@@ -321,7 +322,7 @@ for (var i = 0; i < 5; i++) {
 
 - [ ] 1 2 3 4 5
 - [ ] 1 2 3 4
-- [ ] 0 1 2 3 4
+- [x] 0 1 2 3 4
 - [ ] 0 1 2 3 4 5
 
 [Reference javascript for loops](https://www.w3schools.com/js/js_loop_for.asp)
@@ -331,7 +332,7 @@ for (var i = 0; i < 5; i++) {
 - [ ] `Object.get()`
 - [ ] `Object.loop()`
 - [ ] `Object.each()`
-- [ ] `Object.keys()`
+- [x] `Object.keys()`
 
 [Reference javascript object static methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods)
 
@@ -343,7 +344,7 @@ a[100] = 'fox';
 console.log(a.length);
 ```
 
-- [ ] 101
+- [x] 101
 - [ ] 3
 - [ ] 4
 - [ ] 100
@@ -354,7 +355,7 @@ console.log(a.length);
 - [ ] You can count the records in a Map with a single method call.
 - [ ] Keys in Maps can be strings.
 - [ ] You can access values in a Map without iterating over the whole collection.
-
+```Look at this pleaes```
 **Explanation:** `Map.prototype.size returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.`
 [Reference map methods javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
