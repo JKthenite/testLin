@@ -355,7 +355,8 @@ console.log(a.length);
 - [ ] You can count the records in a Map with a single method call.
 - [ ] Keys in Maps can be strings.
 - [ ] You can access values in a Map without iterating over the whole collection.
-```Look at this pleaes```
+```Look at this please```
+...
 **Explanation:** `Map.prototype.size returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.`
 [Reference map methods javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
@@ -368,7 +369,7 @@ dessert.type = 'pudding';
 
 - [ ] pie
 - [ ] The code will throw an error.
-- [ ] pudding
+- [x] pudding
 - [ ] undefined
 
 [Reference working with js objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
@@ -376,7 +377,7 @@ dessert.type = 'pudding';
 #### Q25. 0 && hi
 
 - [ ] ReferenceError
-- [ ] True
+- [x] True
 - [ ] 0
 - [ ] false
 
@@ -387,7 +388,7 @@ dessert.type = 'pudding';
 - [ ] `\++`
 - [ ] `\--`
 - [ ] `\==`
-- [ ] `\|\|`
+- [?] `\|\|`
 
 [Reference short circuit javascript](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
 
@@ -396,14 +397,14 @@ dessert.type = 'pudding';
 - [ ] `Student.parent = Person;`
 - [ ] `Student.prototype = new Person();`
 - [ ] `Student.prototype = Person;`
-- [ ] `Student.prototype = Person();`
+- [x] `Student.prototype = Person();`
 
 [Reference prototype object js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 #### Q28. Why would you include a "use strict" statement in a JavaScript file?
 
 - [ ] to tell parsers to interpret your JavaScript syntax loosely
-- [ ] to tell parsers to enforce all JavaScript syntax rules when processing your code
+- [x] to tell parsers to enforce all JavaScript syntax rules when processing your code
 - [ ] to instruct the browser to automatically fix any errors it finds in the code
 - [ ] to enable ES6 features in your code
 
@@ -413,7 +414,7 @@ dessert.type = 'pudding';
 
 - [ ] all of them
 - [ ] `const`
-- [ ] `var`
+- [x] `var`
 - [ ] `let`
 
 [Reference var vs let vs const in js](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
@@ -422,8 +423,8 @@ dessert.type = 'pudding';
 
 - [ ] `Boolean(0)`
 - [ ] `Boolean("")`
-- [ ] `Boolean(NaN)`
-- [ ] `Boolean("false")`
+- [] `Boolean(NaN)`
+- [x] `Boolean("false")`
 
 [Reference boolean of a string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
@@ -432,14 +433,14 @@ dessert.type = 'pudding';
 - [ ] `this`
 - [ ] `catch`
 - [ ] `function`
-- [ ] `array`
+- [x] `array`
 
 [Reference js reserved words](https://www.w3schools.com/js/js_reserved.asp)
 
 #### Q32. Which variable is an implicit parameter for every function in JavaScript?
 
 - [ ] Arguments
-- [ ] args
+- [x] args
 - [ ] argsArray
 - [ ] argumentsList
 
@@ -458,7 +459,7 @@ var x = new X();
 
 - [ ] `x.get('Y')`
 - [ ] `x.Y`
-- [ ] `x.Y()`
+- [x] `x.Y()`
 - [ ] `x.get().Y`
 
 [Reference getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
@@ -479,7 +480,7 @@ let diff = function (x, y) {
 
 - [ ] 30, ReferenceError, 30, -10
 - [ ] 30, ReferenceError
-- [ ] 30, -10
+- [x] 30, -10
 - [ ] ReferenceError, -10
 
 [Reference accessing before initialization](https://stackoverflow.com/questions/56318460/cannot-access-variable-name-before-initialization)
@@ -488,7 +489,7 @@ let diff = function (x, y) {
 
 - [ ] Objects are more efficient in terms of storage.
 - [ ] Adding a record to an object is significantly faster than pushing a record into an array.
-- [ ] Most operations involve looking up a record, and objects can do that better than arrays.
+- [x] Most operations involve looking up a record, and objects can do that better than arrays.
 - [ ] Working with objects makes the code more readable.
 
 **Explanation:** Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
@@ -498,7 +499,7 @@ let diff = function (x, y) {
 
 - [ ] It can be used for both internal and external JavaScript code.
 - [ ] It can be used only for internal JavaScript code.
-- [ ] It can be used only for internal or external JavaScript code that exports a promise.
+- [x] It can be used only for internal or external JavaScript code that exports a promise.
 - [ ] It can be used only for external JavaScript code.
 
 [Reference async attribute for html](https://www.w3schools.com/tags/att_script_async.asp)
@@ -508,7 +509,7 @@ let diff = function (x, y) {
 - [ ] `import _ from 'lodash';`
 - [ ] `import 'lodash' as _;`
 - [ ] `import '_' from 'lodash;`
-- [ ] `import lodash as _ from 'lodash';`
+- [x] `import lodash as _ from 'lodash';`
 
 [Reference how to import library in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 
@@ -521,13 +522,13 @@ let diff = function (x, y) {
 - [ ] True
 - [ ] undefined
 - [ ] []
-- [ ] False
+- [x] False
 
 [Reference arrays in js are objects](https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays)
 
 #### Q39. What type of function can have its execution suspended and then resumed at a later point?
 
-- [ ] Generator function
+- [x] Generator function
 - [ ] Arrow function
 - [ ] Async/ Await function
 - [ ] Promise function
@@ -551,7 +552,7 @@ f2();
 ```
 
 - [ ] 2
-- [ ] 1
+- [x] 1
 - [ ] Nothing - this code will throw an error.
 - [ ] undefined
 
@@ -569,7 +570,7 @@ f2();
 #### Q42. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 
 - [ ] You are calling a method named reduce on an object that's declared but has no value.
-- [ ] You are calling a method named reduce on an object that does not exist.
+- [x] You are calling a method named reduce on an object that does not exist.
 - [ ] You are calling a method named reduce on an empty array.
 - [ ] You are calling a method named reduce on an object that's has a null value.
 
@@ -580,7 +581,7 @@ f2();
 `let arr = [];`
 
 - [ ] 3
-- [ ] 2
+- [2] 2
 - [ ] 0
 - [ ] 1
 
@@ -590,7 +591,7 @@ f2();
 
 - [ ] `typeof`
 - [ ] `delete`
-- [ ] `instanceof`
+- [x] `instanceof`
 - [ ] `void`
 
 [Reference js unary operators](https://www.digitalocean.com/community/tutorials/javascript-unary-operators-simple-and-useful#:~:text=A%20unary%20operation%20is%20an,therefore%20their%20functionality%20is%20guaranteed.)
@@ -605,7 +606,7 @@ if (start === 1) {
 ```
 
 - [ ] conditional
-- [ ] block
+- [x] block
 - [ ] global
 - [ ] function
 
@@ -618,7 +619,7 @@ const x = 6 % 2;
 const y = x ? 'One' : 'Two';
 ```
 
-- [ ] One
+- [x] One
 - [ ] undefined
 - [ ] TRUE
 - [ ] Two
@@ -630,7 +631,7 @@ const y = x ? 'One' : 'Two';
 - [ ] `throw`
 - [ ] `exception`
 - [ ] `catch`
-- [ ] `error`
+- [x] `error`
 
 [Reference throwing errors in js](<https://www.w3schools.com/jsref/jsref_throw.asp#:~:text=The%20throw%20statement%20throws%20(generates,to%20create%20a%20custom%20error.)>)
 
